@@ -9,7 +9,7 @@ static char current_screen[] = {
 };
 
 void raw_hid_receive(uint8_t *data, uint8_t length) {
-    uprintf("Data received: %s", data);
+    uprintf("Data received: %i", data);
     // Receive packet
     // Overwrite current_screen with contents
 }
